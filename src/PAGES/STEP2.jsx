@@ -24,7 +24,7 @@ import {
 } from "react-share";
 
 const breakpoints = createBreakpoints({});
-const url = "https://stackoverflow.com";
+const url = "https://1000giv.vercel.app/";
 const quote = "Don't Miss this Opportunity : Earn : 1000 $ Giveaway";
 const hashtag = [
   "#makemoneyfast",
