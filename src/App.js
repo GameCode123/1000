@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { Switch, Route, withRouter } from "react-router-dom";
+import Step1 from "./PAGES/STEP1";
+import Step2 from "./PAGES/STEP2";
+import Step3 from "./PAGES/STEP3";
+import "./app.css";
+function App(props) {
+  const { location } = props;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Switch location={location}>
+      <Route path="/" exact component={Step1} />
+      <Route path="/step2" exact component={Step2} />
+      <Route path="/step3" exact component={Step3} />
+    </Switch>
   );
 }
 
-export default App;
+export default withRouter(App);
