@@ -2,7 +2,7 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import Step1 from "./PAGES/STEP1";
 import Step2 from "./PAGES/STEP2";
 import Step3 from "./PAGES/STEP3";
-import "./app.css";
+import "./App.css";
 function App(props) {
   const { location } = props;
   return (
