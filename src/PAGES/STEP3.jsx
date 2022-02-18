@@ -37,6 +37,9 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           height: "100px",
+          [breakpoints.down("md")]: {
+            height: "130px",
+          },
           width: "100%",
           fontSize: "25px",
           backgroundColor: "#FFFF",
@@ -44,9 +47,8 @@ const theme = createTheme({
           fontWeight: "bold",
           marginTop: "15px",
           "&:hover": {
-            color: "#2b292b",
-
             backgroundColor: "#FFFF",
+            color: "#2b292b",
           },
         },
       },
@@ -58,26 +60,38 @@ const theme = createTheme({
     h1: {
       fontWeight: "500",
       color: "#535153",
-      fontSize: "80px",
+      fontSize: "90px",
       textAlign: "center",
+      [breakpoints.down("md")]: {
+        fontSize: "50px !important",
+      },
     },
     h2: {
       textAlign: "center",
       fontWeight: "500",
       fontSize: "40px",
       color: "#a09fa0",
+      [breakpoints.down("md")]: {
+        fontSize: "20px !important",
+      },
     },
     body2: {
       color: "#0a68bb",
       display: "inline-block",
       fontWeight: "600",
       fontSize: "80px",
+      [breakpoints.down("md")]: {
+        fontSize: "50px !important",
+      },
     },
     body1: {
       fontWeight: "600",
-      color: "#716f71",
+      color: "#6c8bb04",
       fontSize: "40px",
       display: "inline-block",
+      [breakpoints.down("md")]: {
+        fontSize: "20px !important",
+      },
     },
     subtitle1: {
       color: "white",
@@ -88,6 +102,9 @@ const theme = createTheme({
       color: "white",
       opacity: "0.7",
       fontSize: "24px",
+      [breakpoints.down("md")]: {
+        fontSize: "18px !important",
+      },
     },
   },
 });
