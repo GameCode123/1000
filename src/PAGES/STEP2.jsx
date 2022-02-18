@@ -56,7 +56,7 @@ const hashtag = [
   "#internetmarketing",
 ];
 const mediaurl =
-  "https://www.sweepstakesbible.com/sites/default/files/sweep_imgs/prizegrab-sweepstakes_2.jpg";
+  "https://github.com/GameCode123/1000/blob/master/public/earn100$.jpg?raw=true";
 const useStyles = makeStyles({
   textprogresbar: {
     fontFamily: "Lato !important",
