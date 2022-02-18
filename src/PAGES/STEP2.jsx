@@ -155,7 +155,7 @@ const theme = createTheme({
 });
 function responsive(desktop, mobile, tablet) {
   if (desktop) {
-    return "20px";
+    return "10px";
   } else if (mobile || tablet) {
     return "10px";
   }

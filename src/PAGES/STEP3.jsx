@@ -93,7 +93,7 @@ const theme = createTheme({
 function responsive(desktop, mobile, tablet) {
   if (desktop) {
     console.log("desktop");
-    return "20px";
+    return "10px";
   } else if (mobile || tablet) {
     console.log("mobile");
     return "10px";
