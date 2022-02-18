@@ -153,13 +153,13 @@ const theme = createTheme({
     },
   },
 });
-function responsive(desktop, mobile, tablet) {
-  if (desktop) {
-    return "10px";
-  } else if (mobile || tablet) {
-    return "10px";
-  }
-}
+// function responsive(desktop, mobile, tablet) {
+//   if (desktop) {
+//     return "10px";
+//   } else if (mobile || tablet) {
+//     return "10px";
+//   }
+// }
 const SocialMedia = ({ ...props }) => {
   const { socialmedia } = useStyles(props);
   const { icon, share } = props;
@@ -190,17 +190,13 @@ const SocialMedia = ({ ...props }) => {
 function Step2() {
   const theme2 = useTheme();
   const desktop = useMediaQuery(theme2.breakpoints.up("xl"));
-  const tablet = useMediaQuery(theme2.breakpoints.up("md"));
-  const mobile = useMediaQuery(theme2.breakpoints.up("xs"));
+  // const tablet = useMediaQuery(theme2.breakpoints.up("md"));
+  // const mobile = useMediaQuery(theme2.breakpoints.up("xs"));
   const classes = useStyles();
 
   return (
     <ThemeProvider theme={theme}>
-      <Box
-        ml={responsive(desktop, tablet, mobile)}
-        mr={responsive(desktop, tablet, mobile)}
-        mb={"20px"}
-      >
+      <Box pr={"20px"} pl={"20px"} mb={"30px"}>
         <Grid
           container
           direction="column"
