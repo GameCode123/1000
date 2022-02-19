@@ -317,6 +317,7 @@ function Step2() {
               container
               direction="row"
               alignItems="center"
+              justifyContent="center"
               style={{ padding: "30px", flexGrow: 1 }}
             >
               <Grid item xs={desktop ? 4 : 10}>

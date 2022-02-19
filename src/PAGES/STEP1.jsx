@@ -158,6 +158,7 @@ function Step1() {
               container
               direction="row"
               alignItems="center"
+              justifyContent="center"
               style={{ padding: "30px" }}
             >
               <Grid item xs={desktop ? 4 : 10}>

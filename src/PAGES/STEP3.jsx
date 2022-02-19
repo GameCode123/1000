@@ -159,6 +159,7 @@ function Step3() {
             <Grid
               container
               direction="row"
+              justifyContent="center"
               alignItems="center"
               style={{ padding: "30px" }}
             >
