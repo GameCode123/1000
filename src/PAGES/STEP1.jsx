@@ -64,9 +64,9 @@ const theme = createTheme({
     },
     h2: {
       textAlign: "center",
-      fontWeight: "500",
+      fontWeight: "300",
       fontSize: "40px",
-      color: "#a09fa0",
+      color: "#535153",
       [breakpoints.down("md")]: {
         fontSize: "20px !important",
       },
@@ -82,7 +82,7 @@ const theme = createTheme({
     },
     body1: {
       fontWeight: "600",
-      color: "#6c8bb04",
+      color: "#535153",
       fontSize: "40px",
       display: "inline-block",
       [breakpoints.down("md")]: {
