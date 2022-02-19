@@ -63,7 +63,7 @@ const theme = createTheme({
       fontSize: "90px",
       textAlign: "center",
       [breakpoints.down("md")]: {
-        fontSize: "50px !important",
+        fontSize: "40px !important",
       },
     },
     h2: {
