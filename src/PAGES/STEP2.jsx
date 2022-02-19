@@ -229,7 +229,7 @@ function Step2() {
             </Typography>
           </Grid>
           <Grid item>
-            <Grid container spacing={1}>
+            <Grid container spacing={1} justifyContent="center">
               <Grid item>
                 <FacebookShareButton url={url} quote={quote} hashtag={hashtag}>
                   <SocialMedia
