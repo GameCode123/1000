@@ -72,7 +72,7 @@ const theme = createTheme({
       fontSize: "40px",
       color: "#a09fa0",
       [breakpoints.down("md")]: {
-        fontSize: "20px !important",
+        fontSize: "30px !important",
       },
     },
     body2: {
