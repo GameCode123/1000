@@ -54,6 +54,9 @@ const hashtag = [
   "#bosswoman",
   "#makemoneyfromhome",
   "#internetmarketing",
+  "#giveaway",
+  "#1000$",
+  "#onlinebusiness",
 ];
 const mediaurl =
   "https://github.com/GameCode123/1000/blob/master/public/earn100$.jpg?raw=true";
