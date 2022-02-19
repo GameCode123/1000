@@ -9,7 +9,7 @@ import { BorderLinearProgress } from "../Components/BorderLinearProgress";
 import { Link } from "react-router-dom";
 const breakpoints = createBreakpoints({});
 const urlofoffer =
-  "https://fasterfiles.net/show.php?l=0&u=551662&id=30781&tracking_id=";
+  "https://fasterfiles.net/show.php?l=0&u=551662&id=36877&tracking_id=";
 const useStyles = makeStyles({
   textprogresbar: {
     fontFamily: "Lato !important",
