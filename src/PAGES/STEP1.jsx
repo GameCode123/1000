@@ -8,7 +8,8 @@ import { makeStyles } from "@mui/styles";
 import { BorderLinearProgress } from "../Components/BorderLinearProgress";
 import { Link } from "react-router-dom";
 const breakpoints = createBreakpoints({});
-
+const urlofoffer =
+  "https://opaldownloads.com/show.php?l=0&u=551662&id=36877&tracking_id=";
 const useStyles = makeStyles({
   textprogresbar: {
     fontFamily: "Lato !important",
@@ -27,6 +28,12 @@ const useStyles = makeStyles({
   },
   item: {
     marginTop: "40px",
+  },
+  Firstbutton: {
+    backgroundColor: "#599fe4 !important",
+    paddingRight: "30px !important",
+    paddingLeft: "30px !important",
+    borderRadius: "5px !important",
   },
 });
 const theme = createTheme({
@@ -144,7 +151,15 @@ function Step1() {
               button.
             </Typography>
           </Grid>
-
+          <Grid item style={{ marginTop: "60px" }} className={classes.item}>
+            <Link
+              to={{ pathname: urlofoffer }}
+              target="_blank"
+              style={{ textDecoration: "none", flexGrow: 1 }}
+            >
+              <Button className={classes.Firstbutton}>CLICK HERE</Button>
+            </Link>
+          </Grid>
           <Grid
             item
             style={{ flexGrow: 1, width: "100%", marginTop: "60px" }}
@@ -153,6 +168,7 @@ function Step1() {
             <div className={classes.textprogresbar}> 0 % Completed</div>
             <BorderLinearProgress variant="determinate" value={0} />
           </Grid>
+
           <Grid item className={classes.step}>
             <Grid
               container
